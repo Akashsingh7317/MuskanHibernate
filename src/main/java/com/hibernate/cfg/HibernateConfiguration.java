@@ -16,7 +16,7 @@ public class HibernateConfiguration {
 		Properties ps = new Properties();
 
 		ps.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");
-		ps.put(Environment.URL, "jdbc:mysql://localhost:3306/piyush");
+		ps.put(Environment.URL, "jdbc:mysql://localhost:3306/mydb");
 		ps.put(Environment.USER, "root");
 		ps.put(Environment.PASS, "root");
 		ps.put(Environment.HBM2DDL_AUTO, "create");
